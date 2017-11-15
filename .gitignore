@@ -1,6 +1,7 @@
 countdown.png
 gogn/.babelrc
 form.png
+gogn/node_modules/*
 gogn/.stylelintrc
 gogn/.eslintrc.js
 gogn/script-compiled.js
@@ -12,3 +13,4 @@ __MACOSX/._verkefni10.md
 *.pdf
 gogn/package.json
 gogn/package-lock.json
+*.rar

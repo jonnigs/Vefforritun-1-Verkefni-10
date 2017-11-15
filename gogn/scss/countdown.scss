@@ -1,17 +1,48 @@
 .countdown {
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
 
   &__heading {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   &__container {
+    display: flex;
+    width: auto;
+    height: auto;
   }
 
   &__box {
+    display: flex;
+    flex-direction: column;
+    border: 1px #eee solid;
+    border-radius: 3px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    color: #666;
+    background-color: #eee;
   }
 
   &__num {
+    font-weight: bold;
+    font-size: 24px;
   }
 
   &__title {
+    font-size: 12px;
   }
+}
+
+main {
+  display: flex;
+  height: auto;
+  width: auto;
+  justify-content: center;
 }
